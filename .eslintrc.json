@@ -1,0 +1,11 @@
+{
+  "extends": "eslint-config-airbnb",
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    "brace-style": ["error", "stroustrup"]
+  }
+}

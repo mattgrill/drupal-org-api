@@ -1,0 +1,22 @@
+{
+  "name": "drupal-org-api",
+  "version": "1.0.0",
+  "description": "JavaScript client for Drupal.org",
+  "main": "lib/index.js",
+  "author": "Matthew Grill",
+  "license": "MIT",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./lib"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "qs": "^6.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.1",
+    "eslint-plugin-react": "^7.0.1"
+  }
+}
