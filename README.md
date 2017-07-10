@@ -13,43 +13,35 @@ const DrupalAPI = require('drupal-org-api');
 const drupalapi = new DrupalAPI();
 ```
 
-### `exports.node(filterOptions, type)`
+### `exports.node(filterOptions)`
 
 **Parameters**
 
 **filterOptions**: `Object`, Query string filter options
 
-**type**: `String`, The response format if the api resource supports multiple formats.
-
 **Returns**: `Promise`, Pending `issueRequest` promise.
 
-### `exports.user(filterOptions, type)`
+### `exports.user(filterOptions)`
 
 **Parameters**
 
 **filterOptions**: `Object`, Query string filter options
 
-**type**: `String`, The response format if the api resource supports multiple formats.
-
 **Returns**: `Promise`, Pending `issueRequest` promise.
 
-### `exports.comment(filterOptions, type)`
+### `exports.comment(filterOptions)`
 
 **Parameters**
 
 **filterOptions**: `Object`, Query string filter options
 
-**type**: `String`, The response format if the api resource supports multiple formats.
-
 **Returns**: `Promise`, Pending `issueRequest` promise.
 
-### `exports.file(fileID, type)`
+### `exports.file(fileID)`
 
 **Parameters**
 
 **fileID**: `String`, The ID of the file.
-
-**type**: `String`, The response format if the api resource supports multiple formats.
 
 **Returns**: `Promise`, Pending `issueRequest` promise.
 
@@ -61,13 +53,19 @@ const drupalapi = new DrupalAPI();
 
 **Returns**: `Promise`, Pending `issueRequest` promise.
 
-### `exports.ci(filterOptions, type)`
+### `exports.ci(filterOptions)`
 
 **Parameters**
 
 **filterOptions**: `Object`, Query string filter options
 
-**type**: `String`, The response format if the api resource supports multiple formats.
+**Returns**: `Promise`, Pending `issueRequest` promise.
+
+### `exports.taxonomyTerm(tid)`
+
+**Parameters**
+
+**tid**: `String`, Taxonomy Term ID
 
 **Returns**: `Promise`, Pending `issueRequest` promise.
 
