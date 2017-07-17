@@ -61,11 +61,11 @@ const drupalapi = new DrupalAPI();
 
 **Returns**: `Promise`, Pending `issueRequest` promise.
 
-### `exports.taxonomyTerm(tid)`
+### `exports.taxonomyTerm(filterOptions)`
 
 **Parameters**
 
-**tid**: `String`, Taxonomy Term ID
+**filterOptions**: `Object`, Query string filter options
 
 **Returns**: `Promise`, Pending `issueRequest` promise.
 
