@@ -21,6 +21,22 @@ const drupalapi = new DrupalAPI();
 
 **Returns**: `Promise`, Pending `issueRequest` promise.
 
+### `exports.nodeCommentId(filterOptions)`
+
+**Parameters**
+
+**filterOptions**: `Object`, Query string filter options
+
+**Returns**: `Promise`, Pending `issueRequest` promise.
+
+### `exports.nodeTaxonomyId(filterOptions)`
+
+**Parameters**
+
+**filterOptions**: `Object`, Query string filter options
+
+**Returns**: `Promise`, Pending `issueRequest` promise.
+
 ### `exports.user(filterOptions)`
 
 **Parameters**
