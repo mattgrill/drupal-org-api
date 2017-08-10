@@ -21,22 +21,6 @@ const drupalapi = new DrupalAPI();
 
 **Returns**: `Promise`, Pending `issueRequest` promise.
 
-### `exports.nodeCommentId(filterOptions)`
-
-**Parameters**
-
-**filterOptions**: `Object`, Query string filter options
-
-**Returns**: `Promise`, Pending `issueRequest` promise.
-
-### `exports.nodeTaxonomyId(filterOptions)`
-
-**Parameters**
-
-**filterOptions**: `Object`, Query string filter options
-
-**Returns**: `Promise`, Pending `issueRequest` promise.
-
 ### `exports.user(filterOptions)`
 
 **Parameters**
@@ -82,6 +66,22 @@ const drupalapi = new DrupalAPI();
 **Parameters**
 
 **filterOptions**: `Object`, Query string filter options
+
+**Returns**: `Promise`, Pending `issueRequest` promise.
+
+### `exports.getRelatedTaxonomyTerms(promise)`
+
+**Parameters**
+
+**Promise**: `Promise`, Promise returned from node query
+
+**Returns**: `Promise`, Pending `issueRequest` promise.
+
+### `exports.getRelatedComments(promise)`
+
+**Parameters**
+
+**Promise**: `Promise`, Promise returned from node query
 
 **Returns**: `Promise`, Pending `issueRequest` promise.
 
