@@ -69,19 +69,19 @@ const drupalapi = new DrupalAPI();
 
 **Returns**: `Promise`, Pending `issueRequest` promise.
 
-### `exports.getRelatedTaxonomyTerms(promise)`
+### `exports.getRelatedTaxonomyTerms(taxonomyTermIds)`
 
 **Parameters**
 
-**Promise**: `Promise`, Promise returned from node query
+**taxonomyTermIds**: `Array`, Array of Taxonomy Terms Ids
 
 **Returns**: `Promise`, Pending `issueRequest` promise.
 
-### `exports.getRelatedComments(promise)`
+### `exports.getRelatedComments(commentIds)`
 
 **Parameters**
 
-**Promise**: `Promise`, Promise returned from node query
+**commentIds**: `Array`, Array of Comment Ids
 
 **Returns**: `Promise`, Pending `issueRequest` promise.
 
