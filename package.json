@@ -1,6 +1,6 @@
 {
   "name": "drupal-org-api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "JavaScript client for Drupal.org",
   "main": "lib/index.js",
   "author": "Matthew Grill",
