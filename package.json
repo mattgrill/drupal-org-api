@@ -9,7 +9,7 @@
     "lint": "./node_modules/.bin/eslint ./lib"
   },
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "qs": "^6.4.0"
   },
   "devDependencies": {
